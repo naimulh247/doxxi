@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      lucide-svelte:
+        specifier: ^0.488.0
+        version: 0.488.0(svelte@5.26.2)
       mode-watcher:
         specifier: ^0.5.1
         version: 0.5.1(svelte@5.26.2)
@@ -1364,6 +1367,11 @@ packages:
 
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
+
+  lucide-svelte@0.488.0:
+    resolution: {integrity: sha512-omPkrOTn0bTZBqiC7fCDt2YGeR1iWGcEV814K8u0owUtFI57JwTTOfGnuiB8qdf3I4hBixiBXVigCQ1m0NIFwQ==}
+    peerDependencies:
+      svelte: ^3 || ^4 || ^5.0.0-next.42
 
   magic-string@0.30.17:
     resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
@@ -3295,6 +3303,10 @@ snapshots:
       wrap-ansi: 9.0.0
 
   lru-cache@10.4.3: {}
+
+  lucide-svelte@0.488.0(svelte@5.26.2):
+    dependencies:
+      svelte: 5.26.2
 
   magic-string@0.30.17:
     dependencies:
