@@ -10,7 +10,7 @@
   let combinedClass = `border-dark-10 group border rounded-2xl ${className}`;
 </script>
 
-<AccordionPrimitive.Root class="w-full sm:max-w-[70%]" type={type}>
+<AccordionPrimitive.Root class="w-full sm:max-w-[70%] my-4" type={type}>
   <AccordionPrimitive.Item {value} class={combinedClass}>
     <AccordionPrimitive.Header>
       <AccordionPrimitive.Trigger
